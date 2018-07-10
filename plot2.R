@@ -1,9 +1,9 @@
 #This R script is designed to plot "Global Active Power" histogram
 ##Dowload Electric Power consumption dataset
-#download.file(url = "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip",destfile = "ElectPowerDataset.zip")
+download.file(url = "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip",destfile = "ElectPowerDataset.zip")
 
 ##unzip downloaded file
-#unzip(zipfile = "ElectPowerDataset.zip")
+unzip(zipfile = "ElectPowerDataset.zip")
 
 ##read file into R
 T1 <- read.csv("household_power_consumption.txt", sep=";")
